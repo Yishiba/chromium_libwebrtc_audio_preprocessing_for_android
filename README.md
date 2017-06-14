@@ -9,8 +9,8 @@ this repo pull them in 2017-06-12
 default built is armeabi-v7a, you can built for other platforms by modify Application.mk (APP_ABI := armeabi-v7a)
 
 
-
-ndk-build -B
+```
+#ndk-build -B
 [armeabi-v7a] Compile++ thumb: webrtc_aec <= echo_cancellation.cc
 [armeabi-v7a] Compile++ thumb: webrtc_aec <= aec_resampler.cc
 [armeabi-v7a] Compile++ thumb: webrtc_aec <= aec_core.cc
@@ -244,3 +244,4 @@ ndk-build -B
 [armeabi-v7a] StaticLibrary  : libcpufeatures.a
 [armeabi-v7a] SharedLibrary  : libwebrtc_audio_preprocessing.so
 [armeabi-v7a] Install        : libwebrtc_audio_preprocessing.so => libs/armeabi-v7a/libwebrtc_audio_preprocessing.so
+```
