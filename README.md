@@ -245,3 +245,5 @@ default built is armeabi-v7a, you can built for other platforms by modify Applic
 [armeabi-v7a] SharedLibrary  : libwebrtc_audio_preprocessing.so
 [armeabi-v7a] Install        : libwebrtc_audio_preprocessing.so => libs/armeabi-v7a/libwebrtc_audio_preprocessing.so
 ```
+
+Author: admin#elesos.com
