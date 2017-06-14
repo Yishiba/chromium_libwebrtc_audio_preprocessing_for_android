@@ -3,7 +3,7 @@ libwebrtc_audio_preprocessing.so compile for android
 
 The master source repository for WebRTC is at https://chromium.googlesource.com/external/webrtc  
 
-this repo pull them in 2017-06-12
+this repo pull WebRTC source in 2017-06-12
 
 
 default built is armeabi-v7a, you can built for other platforms by modify Application.mk (APP_ABI := armeabi-v7a)
